@@ -8,7 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"),
+  metadataBase: new URL(
+    process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000"
+  ),
   title: "Amway Business Tablet and Toolkit",
   description: "Your complete Amway business solution",
   openGraph: {
@@ -38,10 +40,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.className}>
-      <body className="antialiased">
-        {children}
-      </body>
+    <html
+      lang="en"
+      className={inter.className}
+    >
+      <body className="antialiased">{children}</body>
     </html>
   );
 }

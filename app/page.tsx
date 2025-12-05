@@ -10,7 +10,7 @@ export default function Home() {
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
       }}
-      className="min-h-screen bg-background"
+      className="min-h-screen bg-background "
     >
       {/* Header */}
       <header className="border-b border-border/40 bg-card/50 backdrop-blur-sm sticky top-0 z-50">
@@ -27,8 +27,8 @@ export default function Home() {
       <main className="container mx-auto px-6 md:px-4 py-12">
         {/* Page Headline */}
         <div className="max-w-6xl mx-auto mb-12 text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 bg-linear-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            Amway Business Tablet and Toolkit
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-primary">
+            Amway Business Tablet & Toolkit{" "}
           </h1>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Everything you need to grow your Amway business in one powerful
@@ -46,7 +46,7 @@ export default function Home() {
 
           {/* Video Section 2 - Hindi */}
           <VideoPlayer
-            src={`https://videoforinteractivedemons.s3.ap-south-1.amazonaws.com/tablet/ATV+REVISED+2.0+.mp4`}
+            src="https://videoforinteractivedemons.s3.ap-south-1.amazonaws.com/tablet/ATV+HINGLISH+.mp4"
             title="Amway Business Tablet (Hindi)"
             description="अपने Amway Business Tablet का उपयोग हिंदी में सीखें"
           />

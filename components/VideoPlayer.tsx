@@ -8,7 +8,7 @@ export function VideoPlayer({ src, title, description }: VideoPlayerProps) {
   return (
     <section className="space-y-4">
       <div className="space-y-2">
-        <h2 className="text-3xl font-bold bg-linear-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+        <h2 className="text-3xl font-bold text-primary">
           {title}
         </h2>
         <p className="text-muted-foreground">{description}</p>
