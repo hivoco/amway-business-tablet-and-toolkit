@@ -31,14 +31,14 @@ export default function Home() {
         <div className="max-w-6xl mx-auto space-y-12">
           {/* Video Section 1 - English */}
           <VideoPlayer
-            src="/amway-tablet-english.mp4"
+            src={`https://videoforinteractivedemons.s3.ap-south-1.amazonaws.com/tablet/ATV+REVISED+2.0+.mp4`}
             title="Amway Business Tablet (English)"
             description="Learn how to use your Amway Business Tablet in English"
           />
 
           {/* Video Section 2 - Hindi */}
           <VideoPlayer
-            src="/amway-tablet-english.mp4"
+            src={`https://videoforinteractivedemons.s3.ap-south-1.amazonaws.com/tablet/ATV+REVISED+2.0+.mp4`}
             title="Amway Business Tablet (Hindi)"
             description="अपने Amway Business Tablet का उपयोग हिंदी में सीखें"
           />
